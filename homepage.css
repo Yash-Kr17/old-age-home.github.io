@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Gill Sans", sans-serif;
+}
+header{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0,0,0,0.5)), url('pic1.jpg');
+    height: 92.5vh;
+    background-size:cover;
+    background: position 50%;
+}
+
+body{
+    background: #ff0000;
+    background-size: 40% 50%;
+    background-position: 25% 35%;
+}
+ul{
+    float: right;
+    margin-top: 30px;
+}
+ul li{
+    display: inline-block;
+}
+ul li a{
+    color: rgb(255,200,0);
+    padding: 10px 40px;
+    border: 1pv dashed #0f0;
+    transition: 0.4s ease;
+}
+ul li a:hover{
+    background-color: #0af;
+}
+ul li.active a{
+    background-color: #0af;
+    color:blue;
+}
+.logo img{
+    top: 20%;
+    float:left;
+    width: 100px;
+    height: 100px;
+}
+.main{
+    max-width: 1200px;
+    margin: auto;
+}
+.head{
+      position: absolute;
+      top: 2%;
+      left: 16%;
+}
+.head p{
+      text-decoration: underline;
+      color: orange;
+      font-weight: 800;
+      font-size: 38px;
+}
+.par{
+    border: 5px solid #ffaa00;
+    border-radius:30px;
+    position: absolute;
+    top: 25%;
+    left: 7%;
+    right: 50%;
+    text-align: justify;
+}
+.par:hover {
+  background-color: red;
+}
+.par p{
+    font-size: 30px;
+    font-family: "Gill Sans", sans-serif;
+    font-style: italic;
+    color: rgb(38, 240, 179);
+}
+.par1{
+    border: 5px solid #ffaa00;
+    border-radius:30px;
+    position: absolute;
+    top: 25%;
+    left: 55%;
+    right: 7%;
+    text-align: justify;
+}
+.par1:hover {
+  background-color: red;
+}
+.par1 p{
+    font-size: 30px;
+    font-family: "Gill Sans", sans-serif;
+    font-style: italic;
+    color: rgb(240, 233, 38);
+}
+.button{
+     text-align: center;
+     display: inline-block;
+     margin-top:425px;
+     margin-left:415px;
+     font-size: 28px;
+     height:40px;
+     border-radius: 24px;
+     border: 2px solid red;
+}
+.button {
+  transition-duration: 0.4s;
+}
+
+.button:hover {
+  background-color: red;
+}

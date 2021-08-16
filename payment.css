@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Gill Sans", sans-serif;
+}
+
+body{
+     background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0,0,0,0.5)), url('pic2.png');
+     height: 92.5vh;
+     background-size:cover;
+     background: position 50%;
+}
+
+ul{
+    float: right;
+    margin-top: 30px;
+}
+ul li{
+    display: inline-block;
+}
+ul li a{
+    color: red;
+    padding: 10px 40px;
+    border: 1pv dashed #0f0;
+    transition: 0.5s ease;
+}
+ul li a:hover{
+    background-color: #0af;
+}
+ul li.active a{
+    background-color: #0af;
+    color:blue;
+}
+
+.logo img{
+    float:left;
+    width: 80px;
+    height: 80px;
+}
+.main{
+    max-width: 1200px;
+    margin: auto;
+}
+.razorpay-embed-btn{
+    position: absolute;
+    top: 80%;
+    left: 62%;
+}
+.txt1{
+    position:absolute;
+    padding-top: 15px;
+    left: 19%;
+}
+.txt1 p{
+    color: red;
+    font-size: 40px;
+    border: 1px soild yellow;
+    background-color: yellow;
+    font-style: italic;
+    font-weight: 800;
+}
+
+.txt{
+    border: 5px solid #fc2634;
+    border-radius:30px;
+    position: absolute;
+    top: 70%;
+    left: 35%;
+    transform: translate(-78%,-50%);
+}
+.txt:hover {
+  background-color: yellow;
+}
+.txt p{
+    color:rgb(0, 119, 255);
+    font-size: 26px;
+    font-style: italic;
+    font-weight: 500;
+}
+.txt2{
+    border: 5px solid #fc2634;
+    border-radius:30px;
+    position: absolute;
+    top: 40%;
+    left: 30%;
+    transform: translate(-50%,-50%);
+}
+.txt2:hover {
+  background-color: yellow;
+}
+.txt2 p{
+    color: rgb(0, 119, 255);
+    font-size: 26px;
+    font-style: italic;
+    font-weight: 500;
+}
